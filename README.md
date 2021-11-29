@@ -7,8 +7,11 @@ Summary of the Food Sales Predictions Project
   * Data has been split into a set to train a machine learning model, and one to validate the training went well
 * Insights
   * Low Fat Dairy produts are preferred over regular dairy products
-  ![Dairy](https://github.com/alexander-billings/food-sales-predictions/blob/master/visualizations/dairy_sales_by_fat.png)
+
+  ![Dairy](https://github.com/alexander-billings/food-sales-predictions/blob/master/visualizations/dairy_sales_by_fat.png?raw=true)
   * Fat content does not have as strong of a correlation with snacks
+
+  ![Snacks](https://github.com/alexander-billings/food-sales-predictions/blob/master/visualizations/snack_sales_by_fat.png?raw=true)
 * Recommendations
   * Collect more sales data to include subcategories of dairy products
   * Maintain diversity of inventory in snack products
