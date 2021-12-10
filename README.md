@@ -17,6 +17,33 @@ Summary of the Food Sales Predictions Project
   * Maintain diversity of inventory in snack products
   * A Linear Regression machine learning model outperforms a Decision Tree model and should be able to predict sales using available data
 
+Two machine learning models were evaluated: Linear Regression and Simple Decision Tree Regression. They were scored with r^2 score and RMSE score and checked for overfitting by comparing results between training and testing data.
+
+Machine Learning Reports:
+
+**Evaluating Linear Regression**
+
+Training r^2 score:  0.5002893346345348
+Training RMSE score: 1076.9698132655562 
+
+Testing r^2 score:   0.5248877442594724
+Testing RMSE score:  1076.68602345498
+
+
+**Evaluating Decision Tree**
+
+Training r^2 score:  0.534740727028052
+Training RMSE score: 1039.1822976718233 
+
+Testing r^2 score:   0.5370571358531255
+Testing RMSE score:  1062.8076111618352
+
+
+Machine Learning Recommendations:
+* Use the Decision Tree model as a baseline for further evaluation
+* Review data to see if there are oppurtunities for better cleaning
+* Evaluate more complex models to see if they perform better
+
 Data Dictionary:
 | Variable Name	|Description|
 |---|---|
